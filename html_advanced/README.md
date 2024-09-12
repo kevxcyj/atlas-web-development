@@ -1,6 +1,6 @@
 HTML ADVANCED
 
-This is the read me for the HTML Advnaced project that's all about me.
+This is the read me for the HTML Advnaced project.
 This project was built focusing on the HTML structure.
 
 Concepts that were covered:
