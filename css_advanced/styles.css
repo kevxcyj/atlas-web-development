@@ -1,34 +1,324 @@
+/*--- BODY ---*/
+
+
+
 body {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    max-width: 100%;
+    margin: 0px;
 }
 
 
-.header {
-    text-align: center;
-    background-image: url(images/Background.png);
+/*--- HEADER SECTION ---*/
+header {
+    background-image: url('static/images/headerback.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 104px;
+    background-repeat: no-repeat;
 }
 
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+    height: 2.5rem;
+    width: 10rem;
+    background-color: #C271FF;
+    color: white;
+    font-size: 10px;
+    border: 0;
+    line-height: normal;
+    box-shadow: 0px 2px 20px 0px rgb(0, 0, 0, 0.50);
+}
 
-
-
-.info {
-    justify-content: center;
-    align-items: center;
+ul {
     display: flex;
+    list-style-type: none;
+    padding-left: 702px;
+}
+
+li a {
+    padding-right: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-bar {
+    justify-content: center;
+    display: flex;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: flex-end;
 }
 
 .banner {
     display: flex;
     align-items: center;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
+}
+
+.banner h1 {
+    justify-content: center;
+    display: flex;
+    font-size: 120px;
+    margin-left: auto;
+    color: white;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.info  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5rem;
+    padding-bottom: 25px;
+    margin-top: auto;
+}
+
+.smile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5rem;
+    color: white;
+    padding-bottom: 25px;
+    margin-top: auto;
+}
+
+.pros-list h2 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 55px;
+    padding-top: 180px;
+    font-size: 2rem;
+
+}
+
+.four-blocks { /*-- Styling for people pictures --*/
+    justify-content: space-evenly;
+    display: flex;
+    height: 237px;
+    width: 1009px;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.four-blocks p {
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 150px;
+    font-weight: 400px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.four-blocks h3 {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    width: 150px;
+}
+
+.four-blocks img {
+    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30rem;
+    height: 150px;
+    width: 150px;
+
+}
+
+
+/*--- QUOTE SECTION ---*/
+.quotes {
+    background-color: #C271FF;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 392px;
+}
+
+.quotesblock { /*-- Styling for weather presenter --*/
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.review {
+    margin-top: auto;
+    width: 730px;
+    text-align: left;
+}
+
+.quotesblock p {
+    text-align: left;
+    color: white;
+
+
+}
+
+.quotesblock img {
+    width: 150px;
+    height: 150px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 30rem;
+
+}
+
+
+/*--- VIDEO TUTORIAL SECTION ---*/
+.videoblock {
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1228px;
+}
+
+.tutorial-videos h1 { 
+    justify-content: center;
+    display: flex;
+    font-weight: 100;
+    margin-bottom: 75px;
+    margin-top: 87px;
+}
+
+.videoblock .phillip {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 13px;
+    color: #C271FF;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.phillip { /*-- Styling for author of videos --*/
+    align-items: center;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.tutorial-videos h2 {
+    font-size: 16px;
+    padding-left: 13px;
+    color: #071629;
 }
 
 
 
-.smile {
+
+
+
+/*--- MEMBERSHIP SECTION ---*/
+.membership-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #071629;
+    text-align: center;
+}
+
+.membership-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 58px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.membersblock {
     justify-content: center;
+    display: flex;
+    margin-right: 164px;
+    margin-left: 164px;
+}
+
+.members {
+    width: 257px;
+    height: 153px;
+    position: relative;
+    padding-right: 27px;
+    padding-left: 27px;
+}
+
+
+.button2 { /*-- Spacing --*/
+    margin-top: 85px;
+    margin-bottom: 52px;
+}
+
+.members p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/*--- FAQ SECTION ---*/
+.faq-section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
+    margin-bottom: 84px;
+    margin-right: 271px;
+    margin-left: 286px;
+    justify-content: center;
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    display: block;
+    margin-top: 67px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 350;
+    font-family: "Source Sans Pro";
+    line-height: 24px;
+    margin-bottom: 74px;
+}
+
+
+/*--- FOOTER SECTION ---*/
+footer {
+    height: 249px;
+    background-color: #071629;
 }
