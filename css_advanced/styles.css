@@ -1,8 +1,21 @@
 /*--- BODY ---*/
+@font-face {
+    font-family: 'Source-sans-pro-Regular';
+    src: url(fonts/SourceSansPro-Regular.otf);
+}
 
+@font-face {
+    font-family: 'Source-sans-pro-Bold';
+    src: url(fonts/SourceSansPro-Bold.otf);
+}
 
+@font-face {
+    font-family: 'Source-sans-pro-Light';
+    src: url(fonts/SourceSansPro-Light.otf);
+}
 
 body {
+    font-family: 'Source-sans-pro-Light';
     display: block;
     max-width: 100%;
     margin: 0px;
@@ -74,6 +87,7 @@ li a {
     margin-right: auto;
     margin-bottom: 0;
     text-align: center;
+    font-family: 'Source-sans-pro-Bold';
 }
 
 .info  {
@@ -202,9 +216,55 @@ li a {
     width: 1228px;
 }
 
+.tutorial img 
+
+.tutorial-videos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tutorial-videos img {
+    flex-direction: row;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 154px;
+    max-height: 255px;
+    justify-content: space-evenly;
+}
+
+
+
+.play {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    top: 50%;
+}
+
+.vid {
+    max-width: 255px;
+    max-height: 154px;
+    position: relative;
+}
+
+.videoblock .videos {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 355px;
+}
+
 .tutorial-videos h1 { 
     justify-content: center;
     display: flex;
+    margin-top: 87px;
+    margin-bottom: 75px;
     font-weight: 100;
     margin-bottom: 75px;
     margin-top: 87px;
@@ -229,6 +289,15 @@ li a {
     font-size: 16px;
     padding-left: 13px;
     color: #071629;
+}
+
+.videoblock .videos .phillip h3 {
+    color: #C271FF;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 13px;
+    font-weight: 600;
 }
 
 
